@@ -1,6 +1,15 @@
 const api = require ("./api");
 const homeRoutes = require ("./homeRoutes");
-// const expressRouter = require ("");
+const express = require ("express");
+const router = express.Router ();
 
-// require express.router
-// router.use 
+router.use (function timeLog (req, res, next) {
+    console.log('Time: ', Date.now())
+    next()
+});
+
+router.get('/', function (req, res) {
+    res.send("Homepage")
+});
+
+module.exports = router

@@ -49,7 +49,11 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 
 ## NOTES/CHALLENGES:
 
-+ 
++ need MVC architectural structure
+
++ need Handlebars.js as the templating language
+
++ (package.json) - included Sequelize and express-session dependencies
 
 
 ### WALKTHROUGH VIDEO:
@@ -64,4 +68,4 @@ SO THAT I can publish articles, blog posts, and my thoughts and opinions
 * [deployed application](#)
 
 ---
-© 2021
+© ELOGHUB 2021
