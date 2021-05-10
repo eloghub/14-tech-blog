@@ -12,4 +12,6 @@ router.get('/', function (req, res) {
     res.send("Homepage")
 });
 
+// router.use ('/homeRoutes', homeRoutes);
+
 module.exports = router
